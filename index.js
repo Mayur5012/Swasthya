@@ -32,7 +32,7 @@ mongoose
 
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://swasthya-serivce.onrender.com"]
+  origin: ["http://localhost:3000", "https://swasthya-6csp.onrender.com/"]
 }));
 app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({ extended: true }));
